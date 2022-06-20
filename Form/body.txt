@@ -1,0 +1,38 @@
+<div class="main">
+    <div class="join">
+        <h1>Subscribe</h1>
+        <p>Enjoy new content everyday</p>
+    </div>
+    <div class="join subscribe">
+      <form class="" action="index.html" method="post">
+        <table>
+          <tr>
+            <td>Name : </td>
+            <td><input type="text" name="" value="" placeholder="Name"></td>
+          </tr>
+          <tr>
+            <td>Middle Name : </td>
+            <td><input type="text" name="" value="" placeholder="Middle-Name"></td>
+          </tr>
+          <tr>
+            <td>Last Name : </td>
+            <td><input type="text" name="" value="" placeholder="Last-Name"></td>
+          </tr>
+          <tr>
+            <td>Contact No. : </td>
+            <td><input type="text" name="" value="" placeholder="Contact"></td>
+          </tr>
+          <tr>
+            <td>Email-Id : </td>
+            <td><input type="text" name="" value="" placeholder="Email-Id"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><button type="button" name="button">Submit</button>
+              <button type="button" name="button">Reset</button></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </div>
+</body>

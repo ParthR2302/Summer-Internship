@@ -1,0 +1,176 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Heading */
+
+.big-heading{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Download-buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title */
+
+#title .container-fluid{
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+.title-image {
+  margin-left: 10%;
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* features */
+#features {
+  position: relative;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.features-icon {
+  color: #ef8175;
+  padding-bottom: 1.5rem;
+}
+
+.features-div {
+  padding: 0 3rem;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonial Section */
+#testimonials {
+  background-color: #ef8175;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+/* Press */
+#press {
+  background-color: #ef8175;
+  padding-bottom: 5%;
+}
+
+.Press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing{
+  padding: 7%;
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+/* footer */
+
+.footer-icon{
+  margin: 20px 10px;
+  color: black;
+  text-decoration: none;
+}
+
+/* Media Break Through */
+
+@media (max-width: 991px){
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    margin: 0 auto;
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+
+  .big-heading{
+    font-size:45px;
+  }
+
+  .testimonial-text{
+    font-size: 40px;
+  }
+
+}
